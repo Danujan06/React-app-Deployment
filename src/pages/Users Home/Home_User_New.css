@@ -1,0 +1,61 @@
+.Home-container{
+    height: fit-content;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+}
+
+.plant-container{
+    width: 70%;
+    height: 20%;
+}
+
+.plant-card{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.plant-image-container{
+    align-items: center;
+    overflow: hidden;
+
+}
+.plant-image{
+    height: 126px;
+    width: 126px;
+    border: solid;
+}
+
+.Plant-data-container{
+    background-color: #E9F1E4;
+    display: flex;
+    align-items: center; /* Vertically center */
+    justify-content: center;
+    height: 126px;
+    margin-top: 30px;
+}
+
+
+.plant-data-container ul li {
+    list-style: none;
+  }
+
+.plant-button-container{
+    background-color: #E9F1E4;
+    display: flex;
+    align-items: center; /* Vertically center */
+    justify-content: center;
+    height: 126px;
+    margin-top: 30px;
+}
+
+
+.Add-new-plant-button-container {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+
