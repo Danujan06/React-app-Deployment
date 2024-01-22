@@ -47,7 +47,7 @@ function Login() {
     e.preventDefault();
   
     try {
-      const response = await axios.post('http://13.233.120.138:8080/api/v1/auth/authenticate', credentials);
+      const response = await axios.post('http://13.232.48.119:8080/api/v1/auth/authenticate', credentials);
       console.log(response);
       if (response.status === 200) {
         const token = response.data.access_token;
