@@ -45,7 +45,6 @@ function Home_User_New() {
         <div className="main-container row">
             <div className="Home-container row">
                 <div className="plant-container ">
-                    <h1>Hello</h1>
                     {plantData.map((plant) => (
                         <div className="plant-card row" key={plant.id}>
                             <div className="plant-image-container col-md-2">
