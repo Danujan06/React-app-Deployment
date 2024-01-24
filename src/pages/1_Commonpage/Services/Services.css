@@ -1,4 +1,4 @@
-.pagefive-container{
+.pagefive-container {
     height: 85vh;
     width: 90%;
     margin-left: 5%;
@@ -6,38 +6,93 @@
     align-items: center;
 }
 
-.page-five-content{
+.page-five-content {
     height: 60vh;
-    align-items: center;
+    display: flex; /* Add this line */
+    align-items: stretch; /* Add this line */
 }
 
-.page-five-content-left{
+.page-five-content-left {
     width: 45%;
     height: fit-content;
     margin-right: 5%;
     background-color: #E9F1E4;
 }
 
-.page-five-content-right{
+.page-five-content-right {
     width: 45%;
     margin-left: 5%;
     background-color: #E9F1E4;
 }
 
-#page-five-prototype-image{
+#page-five-prototype-image {
     height: 200px;
-    width: 300px;
-    margin-left: 100px;
+    width: 100%; /* Use 100% width to make it responsive within its container */
+    max-width: 300px; /* Limit the maximum width */
+    margin-left: 50px;
+    margin-right: 50px; /* Adjust margin to center the image */
 }
 
-#price-button{
-    width: 200px;
+#price-button {
+    width: 100%; /* Use 100% width to make it responsive within its container */
+    max-width: 200px; /* Limit the maximum width */
     height: 25px;
     border: none;
     border-radius: 10px;
     background-color: #0D7817;
     color: white;
-    margin-left: 150px;
-    margin-top: 30px;
-    margin-bottom: 20px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.left-content {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.price-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Add the following styles to your existing CSS */
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    width: 100%;
+    max-width: 800px; /* Set a maximum width for the table if needed */
+    margin: 20px; /* Adjust margin as needed */
+}
+
+.table th, .table td {
+    text-align: center;
+    padding: 10px;
+}
+
+.table-group-divider td {
+    border-bottom: 1px solid #ddd; /* Add a bottom border to separate rows */
+}
+
+/* Optional: Style the table header background and text color */
+.table thead {
+    background-color: #0D7817;
+    color: white;
+}
+
+/* Optional: Style alternating rows */
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Optional: Style table hover effect */
+.table tbody tr:hover {
+    background-color: #e0e0e0;
 }
