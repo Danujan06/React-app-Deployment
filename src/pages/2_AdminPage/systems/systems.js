@@ -164,7 +164,7 @@ function Systems(){
                         {systems.map((system, index) => (
                         <tr key={index}>
                             <th scope="row">{index + 1}</th>
-                            <td>{system.systemid}</td>
+                            <td>{system.systemId}</td>
                             <td>{system.userName}</td>
                             <td>{system.email}</td>
                             <td>
