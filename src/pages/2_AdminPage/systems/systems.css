@@ -57,3 +57,14 @@ body {
 input::placeholder {
     color: #e9e8e8; /* Fade the placeholder text  */
 }
+
+.py-4{
+    /*Center the table to the middle of the page*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+   
