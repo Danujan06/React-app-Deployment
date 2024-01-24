@@ -25,6 +25,7 @@
 
 
 .login-form-control{
+    width:100%;
     border: none;
 }
 .user-name{
@@ -51,5 +52,18 @@
 #login-button{
     background-color: #0D7817;
     width: 100px;
+}
+.password-input-container {
+    display: flex;
+    align-items: center;
+    width: 100%; 
+
+}
+
+.eye-icon {
+    cursor: pointer;
+    margin-left: 5px; 
+    display: flex;
+    align-items: center; 
 }
 

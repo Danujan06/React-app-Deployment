@@ -97,7 +97,7 @@ function Login() {
                 <input
                   type="text"
                   name="email"
-                  className='login-form-control row'
+                  className='login-form-control row' 
                   value={credentials.email}
                   onChange={handleChange}
                   placeholder='example123@gmail.com'
@@ -107,24 +107,27 @@ function Login() {
 
               <div className='pass-word row'>
                 <label htmlFor="password" className='login-form-label row'>Enter Password :</label>
-                <input
-                  type={passwordVisible ? 'text' : 'password'}
-                  name="password"
-                  className='login-form-control row'
-                  value={credentials.password}
-                  onChange={handleChange}
-                  placeholder='password'
-                  required
-                />
-                <span onClick={togglePasswordVisibility} className='eye-icon'>
-                  {passwordVisible ? <FaEyeSlash /> : <FaEye />}
-                </span>
+                <div className="password-input-container col">
+                  <input
+                    type={passwordVisible ? 'text' : 'password'}
+                    name="password"
+                    className='login-form-control row' 
+                    value={credentials.password}
+                    onChange={handleChange}
+                    placeholder='password'
+                    required
+                  />
+                  <span onClick={togglePasswordVisibility} className='eye-icon'>
+                    {passwordVisible ? <FaEyeSlash /> : <FaEye />}
+                  </span>
+                </div>
               </div>
-
+              
               <div className='login-button-container row'>
                 <button id='login-button' type='submit' className='btn btn-success'>LogIn</button>
-                <p style={{padding: "5px"}}> Check Pages? | <a href='/Systems'>Check</a></p>
               </div>
+              
+              
 
             </form> 
           </div>
