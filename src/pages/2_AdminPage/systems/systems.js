@@ -154,10 +154,9 @@ function Systems(){
                     <thead>
                         <tr>
                         <th scope="col">#</th>
-                        <th scope="col">First Name</th>
-                        <th scope="col">Last Name</th>
-                        <th scope="col">Email</th>
                         <th scope="col">System ID</th>
+                        <th scope="col">User Name</th>
+                        <th scope="col">Email</th>
                         <th scope="col">Action</th>
                         </tr>
                     </thead>
@@ -165,10 +164,9 @@ function Systems(){
                         {systems.map((system, index) => (
                         <tr key={index}>
                             <th scope="row">{index + 1}</th>
-                            <td>{system.firstname}</td>
-                            <td>{system.lastname}</td>
-                            <td>{system.email}</td>
                             <td>{system.systemid}</td>
+                            <td>{system.userName}</td>
+                            <td>{system.email}</td>
                             <td>
                             <Link className="link-dark" onClick={() => deleteSystem(system.id)}>
                                 <i className="bi bi-trash fs-5"></i>
