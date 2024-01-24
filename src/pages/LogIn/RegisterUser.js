@@ -24,7 +24,7 @@ function RegisterUser() {
     }, []);
 
     const loadUsers = async () => {
-        const result = await axios.get("https://springapplicationbackend.el.r.appspot.com/api/v1/auth/users/all");
+        const result = await axios.get("https://automatedhydroponicssystemv2.el.r.appspot.com/api/v1/auth/users/all");
         setUsers(result.data.reverse());
     };
     const handleChange = (e) => {
@@ -40,7 +40,7 @@ function RegisterUser() {
             return;
         }*/
         try {
-            const response = await axios.post('https://springapplicationbackend.el.r.appspot.com/api/v1/auth/register', formData);
+            const response = await axios.post('https://automatedhydroponicssystemv2.el.r.appspot.com/api/v1/auth/register', formData);
 
             if (response.status === 200) {
                 alert("Registration successful");

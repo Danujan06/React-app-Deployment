@@ -16,7 +16,7 @@ const LogoutButton = () => {
     }
 
     try {
-      const response = await axios.post('http://localhost:8080/api/v1/auth/logout', null, {
+      const response = await axios.post('https://automatedhydroponicssystemv2.el.r.appspot.com/api/v1/auth/logout', null, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
