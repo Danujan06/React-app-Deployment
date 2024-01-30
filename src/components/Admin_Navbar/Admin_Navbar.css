@@ -27,7 +27,7 @@ body{
 /* Home_userNew.css */
 
 .navbar .list-item {
-    margin-right: 15px; /* Adjust the margin to increase space between list items */
+    margin-right: 15px; /* Adjust the margin to increase space between list item */
     transition: color 0.3s; /* Add transition for smoother color change */
 }
 
