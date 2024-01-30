@@ -48,7 +48,7 @@ function Login() {
   
     try {
       //const response = await axios.post('https://automatedhydroponicssystemv2.el.r.appspot.com/api/v1/auth/authenticate', credentials);
-      const response = await axios.post('https://springapplicationlast.el.r.appspot.com/api/v1/auth/authenticate', credentials);
+      const response = await axios.post('https://springapplicationv1.el.r.appspot.com/api/v1/auth/authenticate', credentials);
       console.log(response);
       if (response.status === 200) {
         const token = response.data.access_token;
