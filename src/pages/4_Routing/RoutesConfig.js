@@ -10,6 +10,7 @@ import Systems from "../2_AdminPage/systems/systems";
 import AdminHome from "../2_AdminPage/AdminHome/AdminHome";
 import Home_User_New from "../3_UserPage/Users Home/Home_User_New";
 import PlantDetails from "../3_UserPage/Plant Details/Plant_Details";
+import PlantAdding  from "../2_AdminPage/Plants/PlantsAdd";
 
 
 import ProtectedRoutes from "./protectedRoutes";
@@ -30,6 +31,7 @@ function RoutesConfig() {
                 <Route path="/RegisterUser" element={<RegisterUser/>}/>
                 <Route path="/Systems" element={<Systems/>}/>
                 <Route path="/AdminHome" element={<AdminHome/>}/>
+                <Route path="/AddPlants" element={<PlantAdding/>}/>
             </Route>
             {/* Protected Routes - User Section */}
             <Route element={<ProtectedRoutes/>}>

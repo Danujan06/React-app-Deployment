@@ -19,6 +19,10 @@ function AdminNavBar() {
             name: "User Management"
         },
         {
+            path: "/AddPlants",
+            name: "Plant Management"
+        },
+        {
             path: "/",
             name: "Log Out"
         }
