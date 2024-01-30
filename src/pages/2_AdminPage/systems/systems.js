@@ -57,7 +57,7 @@ function Systems(){
 
     const getAllSystems = async () => {
        // const response = await axios.get("https://automatedhydroponicssystemv2.el.r.appspot.com/api/v1/auth/systems/all");
-        const response = await axios.get("http://localhost:8080/api/v1/auth/systems/all");
+        const response = await axios.get("https://springapplicationv1.el.r.appspot.com/api/v1/auth/systems/all");
         setSystems(response.data);
     }
 
@@ -65,7 +65,7 @@ function Systems(){
 
     const deleteSystem = async (id) => {
         //await axios.delete(`https://automatedhydroponicssystemv2.el.r.appspot.com/api/v1/auth/systems/${id}`);
-        await axios.delete(`http://localhost:8080/api/v1/auth/systems/${id}`);
+        await axios.delete(`https://springapplicationv1.el.r.appspot.com/api/v1/auth/systems/${id}`);
         getAllSystems();
     }
 

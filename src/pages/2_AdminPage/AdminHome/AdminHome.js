@@ -376,7 +376,7 @@ const AdminHome = () => {
   const [systems, setSystems] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:8080/api/v1/auth/systems/all')
+    axios.get('https://springapplicationv1.el.r.appspot.com/api/v1/auth/systems/all')
       .then(response => setSystems(response.data))
       .catch(error => console.error('Error fetching systems:', error));
   }, []);
