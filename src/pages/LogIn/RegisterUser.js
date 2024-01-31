@@ -139,7 +139,7 @@ function RegisterUser() {
                                 <option value="" disabled>Select a role</option>
                                 <option value="USER">User</option>
                                 <option value="ADMIN">Admin</option>
-                                <option value="MANAGER">Manager</option>
+                                
                             </select>
                         </div>
 
