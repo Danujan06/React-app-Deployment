@@ -7,27 +7,27 @@ function Services() {
   const plants = [
     {
       id: 1,
-      name: "Strawberries",
+      name: "Aloe Vera",
     },
     {
       id: 2,
-      name: "Cucumbers",
+      name: "Cerry Tomatoes",
     },
     {
       id: 3,
-      name: "Tomatoes",
+      name: "Mint",
     },
     {
       id: 4,
-      name: "Beans",
+      name: "Rose",
     },
     {
       id: 5,
-      name: "Broccoli",
+      name: "Sunflower",
     },
     {
       id: 6,
-      name: "Cauliflower",
+      name: "Chilli",
     }
     
   ];
