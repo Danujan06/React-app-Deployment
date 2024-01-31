@@ -170,7 +170,7 @@ const AddPlants = () => {
         formData.append(key, value);
       });
 
-      const response = await fetch('https://springapplicationv1.el.r.appspot.com/api/v1/plants/register', {
+      const response = await fetch('https://springapplicationv1.el.r.appspot.com/api/v1/auth/plants/add', {
         method: 'POST',
         body: formData,
       });
