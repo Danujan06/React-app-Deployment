@@ -138,7 +138,7 @@ const AddPlants = () => {
 export default AddPlants;*/
 
 import React, { useState } from 'react';
-import AdminNavBar from '../AdminNavBar/AdminNavBar';
+import AdminNavBar from "../../../components/Admin_Navbar/AdminNavBar";
 
 const AddPlants = () => {
   const [plant, setPlant] = useState({
